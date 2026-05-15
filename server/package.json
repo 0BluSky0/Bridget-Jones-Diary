@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon -L ./api/index.js",
-    "setup-db": "node ./database/setup.js",
-    "start": "node ./api/index.js"
-  },
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "dev": "nodemon -L ./api/index.js",
+  "setup-db": "node ./database/setup.js",
+  "start": "node ./api/index.js"
+},
     "devDependencies": {
     "nodemon": "2.0.21"
   },
